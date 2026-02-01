@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Space Grotesk;
+    src: url(SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Space Grotesk;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 35px;
+    height: 91vh;
+    background: linear-gradient(to right, #ccc, #fff);
+}
+
+form {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+form #headingone {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+form label .in {
+    background-color: #fff;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 45px;
+    overflow: hidden;
+}
+
+form label .in input {
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+form label .in img {
+    width: 10%;
+}
+
+form button {
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+#namazTimingResult {
+    display: flex;
+    align-items: center;
+    background-color: #e6e7ea;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#namazTimingResult #maincontent-left {
+    padding: 50px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+#namazTimingResult #maincontent-right {
+    padding: 20px 50px 20px 0px;
+}
+
+#namazTimingResult #maincontent-right img {
+    height: 55vh;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-left img {
+    width: 50px;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-left h1 {
+    line-height: 0.9;
+    font-size: 40px;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-right {
+    padding-top: 30px;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-right p {
+    font-size: 15px;
+    color: black;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-top #maincontent-left-top-right p span {
+    font-size: 13px;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-bottom .namazTiming {
+    display: flex;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: space-between;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-bottom .namazTiming img {
+    width: 4vw;
+}
+
+
+#namazTimingResult #maincontent-left #maincontent-left-bottom .namazTiming h1 {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    width: 100%;
+}
+
+#namazTimingResult #maincontent-left #maincontent-left-bottom .namazTiming h2 {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0px;
+    width: 50%;
+}
