@@ -5,7 +5,6 @@ function namazTimingData() {
     fetch(`https://api.aladhan.com/v1/timingsByCity?city=${cityName}&country=pakistan&method=1`).then(function (res) {
         return res.json()
     }).then(function (response) {
-        console.log(response)
         namazTimingResult.innerHTML = `
             <div id="maincontent-left">
                 <div id="maincontent-left-top">
@@ -51,4 +50,5 @@ function namazTimingData() {
     }).catch((error) => {
         console.log("Err", error)
     })
+
 }
